@@ -20,7 +20,7 @@ The Intercept EIP now includes more details where the message was intercepted (n
 
 ## Camel Management
 
-We made it easier to control routes by their grouping, for example to stop a set of routes.
+We made it easier to control routes by their [grouping](/manual/route-group.html), for example to stop a set of routes.
 
 Stopping routes will keep their JMX processor MBeans making troubleshooting easier, as you can investigate all the statistics of the processors.
 
@@ -85,7 +85,7 @@ We made `camel-smb` more resilient and better recover when there are connectivit
 ## New Components
 
 - `camel-iso8583` - Create, edit and read ISO-8583 messages
-- `came-langchain4j-agent` - AI Agent
+- `camel-langchain4j-agent` - AI Agent
 
 ## Upgrading
 
